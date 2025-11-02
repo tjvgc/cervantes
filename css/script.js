@@ -38,6 +38,9 @@ function showSlide(n) {
         top: 0,
         behavior: 'smooth'
     });
+
+    // Actualizar indicadores de progreso
+    updateProgressIndicators();
 }
 
 // Función para cambiar de diapositiva
